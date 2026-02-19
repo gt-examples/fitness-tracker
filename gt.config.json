@@ -1,0 +1,15 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    "es",
+    "ja",
+    "zh",
+    "fr"
+  ],
+  "files": {
+    "gt": {
+      "output": "public/_gt/[locale].json"
+    }
+  },
+  "_versionId": "a3824d17d582d0e3fcbbd4f8a2c4ac7229ff38bb659ef8cf3d980d755a879eaa"
+}

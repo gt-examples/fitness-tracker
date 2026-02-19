@@ -1,0 +1,164 @@
+{
+  "169665ca5a377756": "Suivi fitness | Traduction générique",
+  "1a710413e20b14f6": [
+    {
+      "c": "Durée moy.",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        },
+        " min"
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "3600c7b989e0e7c1": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " séries × ",
+      {
+        "i": 3,
+        "k": "_gt_n_3",
+        "v": "n"
+      },
+      " répétitions"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "408334e78603bf38": {
+    "c": [
+      "à ",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " kg"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "4d45141ee742a93f": [
+    {
+      "c": "Total de séries",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_n_3",
+        "v": "n"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "4e63380241969ebf": [
+    {
+      "c": "Calories brûlées",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_n_3",
+        "v": "n"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "76c8d1368e9bac7a": [
+    {
+      "c": [
+        {
+          "i": 2,
+          "k": "_gt_n_2",
+          "v": "n"
+        },
+        " cal"
+      ],
+      "i": 1,
+      "t": "span"
+    },
+    {
+      "c": [
+        {
+          "i": 4,
+          "k": "_gt_n_4",
+          "v": "n"
+        },
+        " min"
+      ],
+      "i": 3,
+      "t": "span"
+    },
+    {
+      "c": {
+        "i": 6,
+        "k": "_gt_date_6",
+        "v": "d"
+      },
+      "i": 5,
+      "t": "span"
+    }
+  ],
+  "9c572ead31c70034": "Une application de suivi d’entraînement multilingue, avec des unités adaptées à la langue/région, des nombres de répétitions et des statistiques d’entraînement.",
+  "b6285e46700ff263": {
+    "c": "Séances récentes",
+    "i": 1,
+    "t": "h3"
+  },
+  "c98e11fb6a3a25a0": {
+    "c": "Conçu avec General Translation pour démontrer le suivi de fitness adapté aux paramètres régionaux, avec des données d'entraînement traduites, des nombres de répétitions et des unités.",
+    "i": 1,
+    "t": "p"
+  },
+  "d05b5cc97808961b": {
+    "c": "Fitness Tracker",
+    "i": 1,
+    "t": "h1"
+  },
+  "da09587bc4ef4945": [
+    {
+      "c": "Séances d'entraînement",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": {
+        "i": 3,
+        "k": "_gt_n_3",
+        "v": "n"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "edf4ebe22db563ac": [
+    {
+      "c": "Résumé hebdomadaire",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Suivez vos entraînements, surveillez vos progrès et restez régulier dans vos objectifs d'entraînement.",
+      "i": 2,
+      "t": "p"
+    }
+  ]
+}
