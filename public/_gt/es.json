@@ -1,4 +1,5 @@
 {
+  "04779ca3f59c95ea": "Sentadilla trasera",
   "169665ca5a377756": "Rastreador de actividad física | Traducción general",
   "1a710413e20b14f6": [
     {
@@ -19,6 +20,7 @@
       "t": "p"
     }
   ],
+  "2f6f444a713ec01d": "Dominadas",
   "3600c7b989e0e7c1": {
     "c": [
       {
@@ -117,12 +119,15 @@
       "t": "span"
     }
   ],
-  "9c572ead31c70034": "Un rastreador de entrenamiento multilingüe con unidades adaptadas a la configuración regional, recuentos de repeticiones y estadísticas de entrenamiento.",
+  "9c572ead31c70034": "Un rastreador de entrenamientos multilingüe con unidades adaptadas a la configuración regional, recuentos de repeticiones y estadísticas de entrenamiento.",
+  "b024b5d591b25299": "Peso muerto",
   "b6285e46700ff263": {
     "c": "Entrenamientos recientes",
     "i": 1,
     "t": "h3"
   },
+  "b99df7c7775f7901": "Press militar",
+  "bcb1471b0cd961b0": "Press de banca con barra",
   "c98e11fb6a3a25a0": {
     "c": "Desarrollado con General Translation para demostrar el seguimiento de actividad física con reconocimiento de configuración regional, con datos de entrenamiento, recuentos de repeticiones y unidades traducidos.",
     "i": 1,

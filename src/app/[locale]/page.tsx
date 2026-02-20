@@ -1,5 +1,6 @@
 import { T, Num, DateTime, Var } from "gt-next";
 import { LocaleSelector } from "gt-next";
+import { getGT } from "gt-next/server";
 
 const workouts = [
   {
@@ -56,7 +57,17 @@ const avgDuration = Math.round(
   workouts.reduce((s, w) => s + w.durationMin, 0) / workouts.length
 );
 
-export default function Home() {
+export default async function Home() {
+  const gt = await getGT();
+
+  const workoutNames: Record<string, string> = {
+    "Barbell Bench Press": gt("Barbell Bench Press", { id: "workout.bench_press" }),
+    "Back Squat": gt("Back Squat", { id: "workout.back_squat" }),
+    "Deadlift": gt("Deadlift", { id: "workout.deadlift" }),
+    "Overhead Press": gt("Overhead Press", { id: "workout.overhead_press" }),
+    "Pull-ups": gt("Pull-ups", { id: "workout.pullups" }),
+  };
+
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
       {/* Header */}
@@ -171,7 +182,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                 <div className="flex-1 min-w-0">
                   <h4 className="text-base font-medium text-neutral-100 mb-1">
-                    <Var>{w.name}</Var>
+                    {workoutNames[w.name] ?? w.name}
                   </h4>
                   <T>
                     <p className="text-sm text-neutral-400">

@@ -1,5 +1,6 @@
 {
-  "169665ca5a377756": "Suivi fitness | Traduction générique",
+  "04779ca3f59c95ea": "Squat arrière",
+  "169665ca5a377756": "Suivi d’entraînement | Traduction générale",
   "1a710413e20b14f6": [
     {
       "c": "Durée moy.",
@@ -19,6 +20,7 @@
       "t": "p"
     }
   ],
+  "2f6f444a713ec01d": "Tractions",
   "3600c7b989e0e7c1": {
     "c": [
       {
@@ -117,12 +119,15 @@
       "t": "span"
     }
   ],
-  "9c572ead31c70034": "Une application de suivi d’entraînement multilingue, avec des unités adaptées à la langue/région, des nombres de répétitions et des statistiques d’entraînement.",
+  "9c572ead31c70034": "Suivi d’entraînement multilingue avec unités, nombre de répétitions et statistiques adaptés à la langue.",
+  "b024b5d591b25299": "Soulevé de terre",
   "b6285e46700ff263": {
     "c": "Séances récentes",
     "i": 1,
     "t": "h3"
   },
+  "b99df7c7775f7901": "Développé militaire",
+  "bcb1471b0cd961b0": "Développé couché à la barre",
   "c98e11fb6a3a25a0": {
     "c": "Conçu avec General Translation pour démontrer le suivi de fitness adapté aux paramètres régionaux, avec des données d'entraînement traduites, des nombres de répétitions et des unités.",
     "i": 1,
