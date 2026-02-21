@@ -1,5 +1,6 @@
 {
   "04779ca3f59c95ea": "Sentadilla trasera",
+  "0c730b7f189776b6": "Ver en GitHub",
   "169665ca5a377756": "Rastreador de actividad física | Traducción general",
   "1a710413e20b14f6": [
     {
@@ -84,6 +85,15 @@
       "t": "p"
     }
   ],
+  "64d17a4e6783f6a9": [
+    "Esta es una aplicación de ejemplo creada con ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". No es un producto real."
+  ],
   "76c8d1368e9bac7a": [
     {
       "c": [
@@ -126,7 +136,7 @@
     "i": 1,
     "t": "h3"
   },
-  "b99df7c7775f7901": "Press militar",
+  "b99df7c7775f7901": "Press por encima de la cabeza",
   "bcb1471b0cd961b0": "Press de banca con barra",
   "c98e11fb6a3a25a0": {
     "c": "Desarrollado con General Translation para demostrar el seguimiento de actividad física con reconocimiento de configuración regional, con datos de entrenamiento, recuentos de repeticiones y unidades traducidos.",

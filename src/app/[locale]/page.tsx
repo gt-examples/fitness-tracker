@@ -1,6 +1,7 @@
 import { T, Num, DateTime, Var } from "gt-next";
 import { LocaleSelector } from "gt-next";
 import { getGT } from "gt-next/server";
+import Link from "next/link";
 
 const workouts = [
   {
@@ -70,6 +71,24 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
+      {/* Disclaimer Banner */}
+      <div className="bg-neutral-900 border-b border-neutral-800">
+        <div className="max-w-4xl mx-auto px-6 py-2.5 text-center text-xs text-neutral-400">
+          <T>
+            This is an example app built with{" "}
+            <a
+              href="https://generaltranslation.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-200 underline hover:text-white"
+            >
+              General Translation
+            </a>
+            . It is not a real product.
+          </T>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="border-b border-neutral-800 bg-neutral-950">
         <div className="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
@@ -95,7 +114,7 @@ export default async function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-neutral-200 transition-colors"
-              aria-label="View on GitHub"
+              aria-label={gt("View on GitHub")}
             >
               <svg
                 width="20"
@@ -216,13 +235,18 @@ export default async function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-neutral-800">
+        <footer className="mt-16 pt-8 border-t border-neutral-800 space-y-4">
           <T>
             <p className="text-sm text-neutral-500 text-center">
               Built with General Translation to demonstrate locale-aware fitness
               tracking with translated workout data, rep counts, and units.
             </p>
           </T>
+          <div className="flex flex-wrap justify-center gap-4 text-xs text-neutral-600">
+            <a href="https://generaltranslation.com/docs" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-400 transition-colors">GT Docs</a>
+            <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-400 transition-colors">Next.js</a>
+            <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-400 transition-colors">Tailwind CSS</a>
+          </div>
         </footer>
       </main>
     </div>
